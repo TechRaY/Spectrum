@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	width: 100%;
+}
+
+/* navbar */
+nav{
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top:20px;
+	width: 20%;
+	background-color: #e1e1e1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	z-index:1;
+}
+li a{
+	display: block;
+	color: #000;
+	padding: 10px 0 10px 18px;
+	text-decoration: none;
+	font: 20px serif;
+}
+li:not(.active) a:hover{
+	background-color: #0088ff;
+	color: white;
+	text-decoration: none;
+}
+li.active  a{
+	color: #fff;
+	background-color: #0033dd;
+	text-decoration: none;
+	font: 20px serif;
+}
+
+/* Login Page */
+#log h1{
+	font-weight: bold;
+}
+.modal-header{
+	background-color: #337ab7;
+	padding: 35px 50px !important;
+}
+.modal-header h1{
+	color: #fff !important;
+}
+.modal-body{
+	padding: 40px 50px !important;
+}
+.modal-footer{
+	background-color: #fafafa;
+}
+
+#div_sec{
+	margin-left: 20%;
+	padding: 5px 20px;
+}
+#div_sec h2{
+	font-family: Serif;
+	text-decoration: underline;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#div_sec form{
+	width: 80%;
+	margin-top: 15px;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+}
+
+/* Hall Of Fame */
+#hof{
+	border-bottom: 1px solid black;
+	margin: 20px 0px;
+	padding-bottom: 10px;
+}

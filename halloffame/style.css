@@ -1,0 +1,122 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+/* Above line is to import google font style */
+
+/* Nav Bar */
+nav{
+}
+#nbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top:20px;
+	width: 20%;
+	background-color: #e1e1e1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	z-index:1;
+}
+#nbar li a{
+	display: block;
+	color: #000;
+	padding: 10px 0 10px 18px;
+	text-decoration: none;
+	font: 20px serif;
+}
+#nbar li:not(.active) a:hover{
+	background-color: #0088ff;
+	color: white;
+	text-decoration: none;
+}
+#nbar li.active  a{
+	color: #fff;
+	background-color: #0033dd;
+	text-decoration: none;
+	font: 20px serif;
+}
+
+#div_sec{
+	margin-left: 20%;
+	padding: 5px 20px;
+}
+
+.maindiv {
+margin:0 auto;
+width:980px;
+height:500px;
+background:#fff;
+padding-top:20px;
+font-size:14px;
+font-family:'Droid Serif',serif;
+}
+.title {
+width:100%;
+height:70px;
+text-shadow:2px 2px 2px #cfcfcf;
+font-size:16px;
+text-align:center;
+font-family:'Droid Serif',serif
+}
+.divA {
+width:80%;
+height: 100%;
+float:left;
+margin-top:30px;
+word-wrap:;
+}
+.form {
+width:68.03%;
+height:100%;
+float:left;
+background-color:#fff;
+font-family:'Droid Serif',serif;
+padding-left:30px;
+word-wrap: break-word;
+overflow: auto;
+
+}
+.divB {
+width:100%;
+height:100%;
+background-color:#fff;
+border:dashed 1px #999;
+
+}
+.divD {
+width:250px;
+height:480px;
+padding:0 20px;
+float:left;
+background-color:#ddd;
+border-right:solid 1px #999;
+overflow:auto;
+word-wrap: break-word;
+}
+p {
+text-align:center;
+font-weight:700;
+color:#5678C0;
+font-size:18px;
+text-shadow:2px 2px 2px #cfcfcf
+}
+.form h2 {
+text-align:center;
+text-shadow:2px 2px 2px #cfcfcf
+}
+#maindiv a {
+text-decoration:none;
+font-size:16px;
+margin:2px 0 0 30px;
+padding:3px;
+color:#1F8DD6
+}
+#maindiv a:hover {
+text-shadow:2px 2px 2px #cfcfcf;
+font-size:18px
+}
+.clear {
+clear:both
+}
+span {
+font-weight:700
+}
