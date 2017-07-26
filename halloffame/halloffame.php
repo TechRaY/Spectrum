@@ -74,18 +74,14 @@ include('db.php');
 <section id="hof-section">
 <div>
 
-	   
+	   //this is to make a gallery                     here the part begins
 	  
         <?php
 		 
-                $count=0;		 
+                     $count=0;		 
 	     	  
-			  
-			   
-			  
 		     $query =mysqli_query($con,"SELECT * from source ORDER BY year desc,pointer desc,rank asc") ;
-			
-			$dyn_table='<div id="hof_sec" class="container"> ';
+		     $dyn_table='<div id="hof_sec" class="container"> ';
 			
 	   		
 			 while($row=mysqli_fetch_array($query) )
@@ -167,7 +163,7 @@ include('db.php');
 	   ?>
    
    
-     
+                     //that's the end of that section
 
 
 </div>
